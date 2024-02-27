@@ -54,7 +54,7 @@ $('#myTable').on('click', '.update-btn', function() {
             var selectOptions = '';
             var defaultOption = '';
             options.forEach(function(option) {
-                selectOptions += '<option value="' + option.id + '">' + option.bac_list + '</option>'; 
+            selectOptions += '<option value="' + option.id + '">' + option.bac_list + '</option>'; 
                 if (rowData.bac_list === option.bac_list) {
                     defaultOption = option.id;
                 }
